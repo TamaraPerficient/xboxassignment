@@ -56,7 +56,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testing_documents/xbox_2_tests.xml</suiteXmlFile>
+						<suiteXmlFile>testng_documents/xbox_2_tests.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
