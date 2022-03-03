@@ -2,7 +2,7 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-03T18:19:29Z" name="Default suite" finished-at="2022-03-03T18:19:55Z" duration-ms="25251">
+  <suite started-at="2022-03-03T22:17:35Z" name="Default suite" finished-at="2022-03-03T22:17:57Z" duration-ms="21828">
     <groups>
       <group name="firefox">
         <method signature="GamertagSearch.testGameList()[pri:0, instance:xboxtestcases.GamertagSearch@7241a47d]" name="testGameList" class="xboxtestcases.GamertagSearch"/>
@@ -17,9 +17,9 @@
         <method signature="LeaderboardTest.testLeaderBoardPage()[pri:0, instance:xboxtestcases.LeaderboardTest@2445445a]" name="testLeaderBoardPage" class="xboxtestcases.LeaderboardTest"/>
       </group> <!-- IEWin32 -->
     </groups>
-    <test started-at="2022-03-03T18:19:29Z" name="Default test" finished-at="2022-03-03T18:19:55Z" duration-ms="25251">
+    <test started-at="2022-03-03T22:17:35Z" name="Default test" finished-at="2022-03-03T22:17:57Z" duration-ms="21828">
       <class name="xboxtestcases.GamertagSearch">
-        <test-method is-config="true" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xboxtestcases.GamertagSearch@7241a47d]" started-at="2022-03-03T12:19:40Z" name="setUpBrowser" finished-at="2022-03-03T12:19:41Z" duration-ms="796" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xboxtestcases.GamertagSearch@7241a47d]" started-at="2022-03-03T16:17:46Z" name="setUpBrowser" finished-at="2022-03-03T16:17:47Z" duration-ms="734" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,17 +45,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testGameList()[pri:0, instance:xboxtestcases.GamertagSearch@7241a47d]" started-at="2022-03-03T12:19:41Z" name="testGameList" finished-at="2022-03-03T12:19:48Z" duration-ms="7367" status="PASS">
+        <test-method signature="testGameList()[pri:0, instance:xboxtestcases.GamertagSearch@7241a47d]" started-at="2022-03-03T16:17:47Z" name="testGameList" finished-at="2022-03-03T16:17:50Z" duration-ms="3881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGameList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:xboxtestcases.GamertagSearch@7241a47d]" started-at="2022-03-03T12:19:48Z" name="tearDown" finished-at="2022-03-03T12:19:55Z" duration-ms="6152" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:xboxtestcases.GamertagSearch@7241a47d]" started-at="2022-03-03T16:17:50Z" name="tearDown" finished-at="2022-03-03T16:17:57Z" duration-ms="6170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- xboxtestcases.GamertagSearch -->
       <class name="xboxtestcases.LeaderboardTest">
-        <test-method is-config="true" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xboxtestcases.LeaderboardTest@2445445a]" started-at="2022-03-03T12:19:29Z" name="setUpBrowser" finished-at="2022-03-03T12:19:31Z" duration-ms="1904" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xboxtestcases.LeaderboardTest@2445445a]" started-at="2022-03-03T16:17:35Z" name="setUpBrowser" finished-at="2022-03-03T16:17:36Z" duration-ms="995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="testLeaderBoardPage()[pri:0, instance:xboxtestcases.LeaderboardTest@2445445a]" started-at="2022-03-03T12:19:31Z" name="testLeaderBoardPage" finished-at="2022-03-03T12:19:34Z" duration-ms="2815" status="PASS">
+        <test-method signature="testLeaderBoardPage()[pri:0, instance:xboxtestcases.LeaderboardTest@2445445a]" started-at="2022-03-03T16:17:36Z" name="testLeaderBoardPage" finished-at="2022-03-03T16:17:40Z" duration-ms="3876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLeaderBoardPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:xboxtestcases.LeaderboardTest@2445445a]" started-at="2022-03-03T12:19:34Z" name="tearDown" finished-at="2022-03-03T12:19:40Z" duration-ms="6208" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:xboxtestcases.LeaderboardTest@2445445a]" started-at="2022-03-03T16:17:40Z" name="tearDown" finished-at="2022-03-03T16:17:46Z" duration-ms="6162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

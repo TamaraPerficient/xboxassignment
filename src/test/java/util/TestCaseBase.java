@@ -221,7 +221,7 @@ public class TestCaseBase{
 	 */
 	@AfterMethod(alwaysRun = true)
 	public void tearDown() throws Exception {
-		driver.quit();
+		driver.close();
 		SystemUtil.driverKiller();// for the driver.quit still not kill the ie
 									// driver process
 	}
