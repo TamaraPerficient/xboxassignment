@@ -13,7 +13,7 @@ public class TestData {
 	{	
 		resource = new Properties();
 		try{
-			File file=new File("C:\\Users\\Jerahmeel.Wilson\\Documents\\Dev\\XboxAssignment\\XboxAssignment\\testdata\\"+filename);	
+			File file=new File("C:\\Users\\Tamara.Chance\\Downloads\\XboxAssignment (1)\\XboxAssignment\\testdata\\"+filename);	
 			InputStream data_input = new FileInputStream(file);
 			//InputStream data_input = SystemUtil.class.getResourceAsStream("/"+filename);
 			resource.load(data_input);

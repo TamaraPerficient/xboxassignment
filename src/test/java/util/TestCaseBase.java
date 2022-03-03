@@ -297,7 +297,7 @@ public class TestCaseBase{
 	 * @throws Exception
 	 */
 	private void setUpChromeWin32(String onGrid) throws Exception {
-		File file = new File("C:\\Users\\Jerahmeel.Wilson\\Documents\\Dev\\XboxAssignment\\XboxAssignment\\lib\\chromedriver.exe");
+		File file = new File("C:\\Users\\Tamara.Chance\\Downloads\\XboxAssignment (1)\\XboxAssignment\\lib\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		if (onGrid.equals("false")){driver_original = new ChromeDriver();}
 		else{

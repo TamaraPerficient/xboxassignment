@@ -5,11 +5,17 @@
     <classes>
       <class name="xboxtestcases.GamertagSearch">
         <methods>
-          <include name="setUpBrowser"/>
           <include name="tearDown"/>
           <include name="testGameList"/>
         </methods>
       </class> <!-- xboxtestcases.GamertagSearch -->
+      <class name="xboxtestcases.LeaderboardTest">
+        <methods>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
+          <include name="testLeaderBoardPage"/>
+        </methods>
+      </class> <!-- xboxtestcases.LeaderboardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
